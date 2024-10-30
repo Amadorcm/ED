@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 3. Contenedores no lineales - Juego de las Letras"
+OUTPUT_DIRECTORY       = /Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/cmake-build-debug/doc_doxygen/
+INPUT                  = /Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/estudiante/include /Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/estudiante/src /Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/estudiante/doc
+EXTRACT_PRIVATE	       = NO

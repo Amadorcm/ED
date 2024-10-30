@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 5. Juego de las Letras - Árbol para Diccionario"
+OUTPUT_DIRECTORY       = /Users/amadorcarmonamendez/Desktop/ej04_juego_letras/cmake-build-debug/doc_doxygen/
+INPUT                  = /Users/amadorcarmonamendez/Desktop/ej04_juego_letras/estudiante/include /Users/amadorcarmonamendez/Desktop/ej04_juego_letras/estudiante/src /Users/amadorcarmonamendez/Desktop/ej04_juego_letras/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /Users/amadorcarmonamendez/Desktop/ej04_juego_letras/estudiante/doc
+EXTRACT_PRIVATE	       = NO

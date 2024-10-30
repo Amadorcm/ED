@@ -1,0 +1,10 @@
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/image.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/negativo.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/subimagen.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/zoom.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/icono.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/contraste.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/barajar.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/doc_doxygen.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/amadorcarmonamendez/Desktop/ED/ej01_imagenes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

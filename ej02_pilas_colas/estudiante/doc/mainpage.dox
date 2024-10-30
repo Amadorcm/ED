@@ -1,0 +1,20 @@
+/*! \mainpage Practica 2 TDA MAXSTACK Y MAXQUEUE
+
+# Practica sobre Tipos de datos abstractos lineales
+
+Segunda practica Realizada por Amador Carmona Méndez y Carlos Roman Álvarez de la asignatura de Estructura de Datos que consiste en:
+Trabajar con dos TDA abstractos, que implementarán una cola y una pila. Estas dos estructuras serán capaces de almacenar la siguiente información:
+- En cada posición, un número entero
+- Adicionalmente, nos permitirán almacenar el valor máximo en la estructura en cada momento.
+
+# Ejecutables
+
+tenemos dos ejecutables cola_max y pila_max. Cada uno para un TDA diferente que trabajan con cada TDA segun el numeor de argumentos dados de la manera especificada en el guion de practicas.
+- Ejemplo para pila_max:
+  ./pila_max 1 2 . 3 4 . . .
+
+- Ejemplo para cola_max:
+  ./cola_max 1 2 . 3 4 . . .
+
+
+*/

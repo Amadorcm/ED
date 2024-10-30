@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 2. Pilas y Colas"
+OUTPUT_DIRECTORY       = /Users/amadorcarmonamendez/Desktop/ED/ej02_pilas_colas/cmake-build-debug/doc_doxygen/
+INPUT                  = /Users/amadorcarmonamendez/Desktop/ED/ej02_pilas_colas/estudiante/include /Users/amadorcarmonamendez/Desktop/ED/ej02_pilas_colas/estudiante/src /Users/amadorcarmonamendez/Desktop/ED/ej02_pilas_colas/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /Users/amadorcarmonamendez/Desktop/ED/ej02_pilas_colas/estudiante/doc
+EXTRACT_PRIVATE	       = NO

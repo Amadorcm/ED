@@ -1,0 +1,114 @@
+/*! \mainpage Practica 3: Contenedores No Lineales
+
+# Introducción
+En esta práctica, y las prácticas sucesivas, nos centraremos en el juego conocido como cifras y letras. Este juego, que se ha popularizado a través de concursos de televisión en distintos países. Nos centraremos de momento en la prueba de las letras. Exploraremos el juego de las cifras en las siguientes prácticas, debido a su mayor complejidad
+Esta parte del juego consiste en formar la mejor palabra posible (dependiendo de uno de los dos criterios que explicamos a continuación) a partir de un conjunto de letras extraídas al azar de una bolsa. Por ejemplo, dadas las siguientes letras:
+
+ODYRMET
+
+una buena solución posible sería METRO. El número de letras que se juegan en cada partida se decide de antemano, y las letras disponibles pueden repetirse. Existen dos modalidades de juego:
+
+● Juego a longitud: En este modo de juego, se tiene en cuenta sólo la longitud de las palabras, y gana la palabra más larga encontrada
+
+● Juego a puntos: En este modo de juego, a cada letra se le asigna una puntuación, y la puntuación de la palabra será igual a la suma de las puntuaciones de las letras que la componen
+
+# Documentos
+En esta practica tenemos para cada TDA, con su especificacion y su implementacion además de su uso:
+
+## Bag
+
+bag.h:
+Archivo de especificacion que contiene todas las estructuras, metodos, y clases necesarias para el TDA Bag.
+
+bag.cpp:
+Archivo de implementacion de las funciones y metodos del TDA LettersSet.
+
+Archivo de Uso bolsa.cpp:
+
+Una vez hemos creado nuestra estructura de datos, ya podemos utilizarla para trabajar con una bolsa de cualquier tipo de datos. Para crear una bolsa de elementos de un tipo concreto, utilizaremos una sintaxis con la que ya estáis familiarizados a trabajar:
+     Bag<int> bolsa_enteros;
+Para probar el correcto funcionamiento del TDA Bag, implementaremos un pequeño programa en el archivo bolsa.cpp, que se encargará de recibir una serie de argumentos de main:
+- El primer argumento podrá ser una letra C o una letra I. Dependiendo de la letra, trabajaremos con una bolsa de caracteres (C) o una bolsa de enteros (I).
+- El resto de argumentos serán una lista de enteros o caracteres (según corresponda), que deberán meterse todos en la bolsa, y después ser extraídos aleatoriamente hasta que la bolsa quede vacía.
+
+## Dictionary
+
+dictionary.h:
+Archivo de especificacion que contiene todas las estructuras, metodos, y clases necesarias para el TDA Dictionary
+
+dictionary.cpp:
+Archivo de implementacion de las funciones y metodos del TDA Dictionary
+
+Archivos de Uso:
+Programas de prueba - palabras_longitud.cpp y cantidad_letras.cpp
+Para probar el funcionamiento del TDA Dictionary, implementaremos dos programas distintos.
+
+El primero de ellos, palabras_longitud.cpp, recibe dos argumentos
+1. Un fichero con las palabras de un diccionario
+2. Un entero con la longitud de las palabras que buscamos
+Construye un Dictionary con el fichero de las palabras, extrae de dicho diccionario las palabras de la longitud que buscamos y las imprime por pantalla.
+
+El segundo de ellos, cantidad_letras.cpp, recibe dos argumentos
+1. Un fichero con las palabras de un diccionario
+2. Un fichero de letras
+Construye un Dictionary con el fichero de palabras, un LettersSet con el fichero de letras, e imprime por pantalla, para cada letra en el LettersSet, el número de ocurrencias de la letra en el diccionario y su frecuencia relativa (es decir, el número total de ocurrencias de la letra entre el número total de letras en el diccionario).
+
+## LettersBag
+
+letters_bag.h:
+Archivo de especificacion que contiene todas las estructuras, metodos, y clases necesarias para el TDA LettersBag
+
+letters_bag.cpp:
+Archivo de implementacion de las funciones y metodos del TDA LettersBag
+
+Archivo de Uso bolsa_letras.cpp:
+
+Para comprobar el funcionamiento del TDA LettersBag, implementaremos un programa de prueba que realice las siguientes operaciones:
+- Cree un conjunto de letras (LettersSet), y lo rellene a partir de la información leída de un archivo.
+- Cree una bolsa de letras (LettersBag), y la rellene con la información del LettersSet anterior
+- Extraiga todas las letras de la LettersBag (aleatoriamente) y las imprima por pantalla.
+
+## LettersSet
+
+letters_set.h:
+Archivo de especificación que contiene todas las estructuras, metodos, y clases necesarias para el TDA LettersSet
+
+letters_set.cpp:
+Archivo de implementacion de las funciones y metodos del TDA LettersSet
+
+Archivo de Uso conjunto_letras.cpp:
+Para probar el funcionamiento del TDA LettersSet, vamos a implementar un pequeño programa que recibirá dos argumentos:
+1. Ruta al archivo con información sobre el conjunto de letras
+2. Palabra de la que calcular la puntuación
+E imprimirá por pantalla la puntuación de dicha palabra.
+
+# Ejecutables (v2hechov3falta->terminar cuando complete la implementacion de metodos e iteradores y ejecute los ejecutables)
+
+## Ejecutable 1:
+./conjunto_letras
+
+Ejemplo de salida:
+
+## Ejecutable 2:
+./bolsa
+
+Ejemplo de salida:
+
+## Ejecutable 3:
+./bolsa_letras
+
+Ejemplo de salida:
+
+## Ejecutable 4:
+./palabras_longitud
+
+Ejemplo de salida:
+
+## Ejecutable 5:
+./cantidad_letras
+
+Ejemplo de salida:
+*/
+/*V1-> Especificacion y docu =doxy
+V2 ejecutables y funciones
+v3 terminar y pulir errores compilacion y ejecucion*/

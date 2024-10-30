@@ -1,0 +1,15 @@
+# ninja log v5
+0	2038	1669375949974193355	CMakeFiles/bolsa.dir/estudiante/src/bolsa.cpp.o	1e3c85c9c59c71b8
+0	420	1669375948360103482	CMakeFiles/bolsa.dir/estudiante/src/bag.cpp.o	18389f373c805fee
+1	228	0	CMakeFiles/doc_doxygen	493265874c03c4ac
+420	1823	1669375949764801373	CMakeFiles/bolsa.dir/estudiante/src/cantidad_letras.cpp.o	2773de57790e2d27
+1	1835	1669375949773703710	CMakeFiles/bolsa.dir/estudiante/src/palabras_longitud.cpp.o	9242a922eae358f2
+1835	1868	1669375949814134268	CMakeFiles/bolsa.dir/estudiante/src/conjunto_letras.cpp.o	a2fa3089cfe198a0
+1	398	0	CMakeFiles/doc_doxygen	fc75b68ada7b848f
+1	398	0	/Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen	fc75b68ada7b848f
+0	405	0	CMakeFiles/doc_doxygen	fc75b68ada7b848f
+0	405	0	/Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen	fc75b68ada7b848f
+1	650	0	CMakeFiles/doc_doxygen	fc75b68ada7b848f
+1	650	0	/Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen	fc75b68ada7b848f
+1	291	0	CMakeFiles/doc_doxygen	fc75b68ada7b848f
+1	291	0	/Users/amadorcarmonamendez/Desktop/ED/ej03_tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen	fc75b68ada7b848f
